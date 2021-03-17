@@ -1,0 +1,10 @@
+# NKcertifier
+default-title: "c'est le default title"
+default-subtitle: "c'est le default subtitle"
+
+#staff data
+data:
+  NoKi_senpai:
+    password: "MyPassword"
+    title: "MyCustomTitle"
+    subtitle: "MyCustomSubtitle"

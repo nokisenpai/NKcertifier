@@ -1,0 +1,11 @@
+name: NKcertifier
+main: be.noki_senpai.NKCertifier.NKCertifier
+version: 0.0.2
+api-version: 1.16
+author: 'NoKi_senpai'
+description: 'Security certificate for the server Lumen'
+website: www.lumen.ovh
+commands:
+  certify:
+    description: "Command to certify staff member"
+    usage: /<command>
