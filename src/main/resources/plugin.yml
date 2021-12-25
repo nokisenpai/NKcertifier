@@ -1,11 +1,15 @@
-name: NKcertifier
-main: be.noki_senpai.NKCertifier.NKCertifier
-version: 0.0.2
-api-version: 1.16
+name: ${project.name}
+main: ovh.lumen.${project.name}.Main
+version: ${project.version}
+api-version: 1.18
 author: 'NoKi_senpai'
-description: 'Security certificate for the server Lumen'
+description: 'Security certificate for the Lumen server'
 website: www.lumen.ovh
+depend: [NKcore]
 commands:
+  ${project.name}:
+    description: "The root plugin command"
+    usage: /<command> [subcommand]
   certify:
     description: "Command to certify staff member"
     usage: /<command>
